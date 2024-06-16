@@ -43,3 +43,7 @@
     - models  -->  database table structure
     - templates  -->  frontend
     - ##### urls --> views --> templates
+<br>
+
+5. django architechture
+    - User  --request--->  urls.py  -----> views.py  --render/response--->  User
