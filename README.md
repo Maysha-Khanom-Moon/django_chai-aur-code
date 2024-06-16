@@ -17,7 +17,7 @@
         - pip install uv  -->  cmd
         - uv venv  -->  Create a virtual environment at .venv
         - .venv\Scripts\activate
-        
+
     - to deactivate
         - deactivate
 <br>
@@ -29,3 +29,17 @@
 
 3. project setup
     - django-admin startproject chaiAurDjango
+    - cd chaiAurDjango
+    - python manage.py runserver
+    - python manage.py runserver 8001 --> any port can be
+<br>
+
+4. file structure
+    - pycache  -->  store caches
+    - __init__  -->  make it package
+    - settings  -->  write down all the configuraiton
+    - urls  -->  routes
+    - views  -->  write down business logic then render or response
+    - models  -->  database table structure
+    - templates  -->  frontend
+    - urls --> views --> templates
