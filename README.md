@@ -70,3 +70,19 @@
     - make block_unnamed and give a name
         - {% block block-name %} default value {% endblock %}
     - then extends that file | write your code within block
+<br>
+
+10. How to add tailwind
+    - [documentation](https://django-tailwind.readthedocs.io/en/latest/installation.html)
+    - uv pip install django-tailwind
+        - using uv | so, have to use uv before pip
+    - uv pip install 'django-tailwind[reload]'
+        - uv will not work on this, so
+            - install pip: 
+                - 1. python -m pip install --upgrade pip
+                - 2. python -m ensurepip --upgrade
+                    - if 1st one does not work
+        - now do not need to use 'uv' anymore
+    - pip install 'django-tailwind[reload]'
+        - if any error happend --> use double quote
+<br>
