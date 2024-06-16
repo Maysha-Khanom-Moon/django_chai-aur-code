@@ -82,7 +82,16 @@
                 - 1. python -m pip install --upgrade pip
                 - 2. python -m ensurepip --upgrade
                     - if 1st one does not work
+
         - now do not need to use 'uv' anymore
     - pip install 'django-tailwind[reload]'
         - if any error happend --> use double quote
+    - other instruction followed from documentation
+
+    - ##### uv is very pathetic
+        - I'm going to follow:
+            - python -m venv .venv
+            - add .gitignore file --> *
+        - again follows upper steps
+        - if any error occurs then go to chatGPT
 <br>
