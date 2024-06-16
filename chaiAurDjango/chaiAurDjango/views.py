@@ -7,7 +7,10 @@ def home(request):
 
 
 def about(request):
-    return HttpResponse("Hello, world. You are at chai aur Djanog about page")
+    # return HttpResponse("Hello, world. You are at chai aur Djanog about page")
+    return render(request, 'website/about.html')
+
 
 def contact(request):
-    return HttpResponse("Hello, world. You are at chai aur Djanog contact page")
+    # return HttpResponse("Hello, world. You are at chai aur Djanog contact page")
+    return render(request, 'website/contact.html')
