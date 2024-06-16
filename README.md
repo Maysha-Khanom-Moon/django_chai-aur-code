@@ -22,10 +22,12 @@
         - deactivate
 <br>
 
+
 2. django setup
     - uv pip install Django
         - using uv | so, have to use uv before pip
 <br>
+
 
 3. project setup
     - django-admin startproject chaiAurDjango
@@ -33,6 +35,7 @@
     - python manage.py runserver
     - python manage.py runserver 8001 --> any port can be
 <br>
+
 
 4. file structure
     - pycache  -->  store caches
@@ -45,9 +48,11 @@
     - ##### urls --> views --> templates
 <br>
 
+
 5. django architechture
     - User  --request--->  urls.py  -----> views.py  --render/response--->  User
 <br>
+
 
 6. {{}} vs {% %} --> inside html
     - {{}}  ---->  variable interpolation
@@ -56,14 +61,17 @@
         - define a block or load and csrf
 <br>
 
+
 7. create a app
     - python manage.py startapp chai
     - add 'chai' into the INSTALLED_APPS in the settings
 <br>
 
+
 8. django-html emmet
     - ctrl + ,  ===>  search 'emmet'  ===>  go to Include language  ===>  add Item: django-html , value: html
 <br>
+
 
 9. template inheritance
     - make a base/layout html file
@@ -71,6 +79,7 @@
         - {% block block-name %} default value {% endblock %}
     - then extends that file | write your code within block
 <br>
+
 
 10. How to add tailwind
     - [documentation](https://django-tailwind.readthedocs.io/en/latest/installation.html)
@@ -95,3 +104,11 @@
         - again follows upper steps
         - if any error occurs then go to chatGPT
 <br>
+
+
+11. super user
+    - before create super user | occurs error in the /admin
+    - python manage.py createsuperuser
+        - username: admin
+        - password: admin
+    - before creating superuser  -->  migrate
