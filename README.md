@@ -42,4 +42,4 @@
     - views  -->  write down business logic then render or response
     - models  -->  database table structure
     - templates  -->  frontend
-    - urls --> views --> templates
+    - ##### urls --> views --> templates
