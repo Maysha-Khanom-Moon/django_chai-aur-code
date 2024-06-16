@@ -58,3 +58,8 @@
 
 7. create a app
     - python manage.py startapp chai
+    - add 'chai' into the INSTALLED_APPS in the settings
+<br>
+
+8. django-html emmet
+    - ctrl + ,  ===>  search 'emmet'  ===>  go to Include language  ===>  add Item: django-html , value: html
