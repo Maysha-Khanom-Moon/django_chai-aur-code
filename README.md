@@ -41,9 +41,16 @@
     - urls  -->  routes
     - views  -->  write down business logic then render or response
     - models  -->  database table structure
-    - templates  -->  frontend
+    - templates  -->  frontend | html
     - ##### urls --> views --> templates
 <br>
 
 5. django architechture
     - User  --request--->  urls.py  -----> views.py  --render/response--->  User
+<br>
+
+6. {{}} vs {% %} --> inside html
+    - {{}}  ---->  variable interpolation
+    - {% %}  ---->  template tags
+        - template logic, loops, conditional statements, and other control structures
+        - define a block or load and csrf
