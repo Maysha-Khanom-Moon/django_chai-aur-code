@@ -63,3 +63,10 @@
 
 8. django-html emmet
     - ctrl + ,  ===>  search 'emmet'  ===>  go to Include language  ===>  add Item: django-html , value: html
+<br>
+
+9. template inheritance
+    - make a base/layout html file
+    - make block_unnamed and give a name
+        - {% block block-name %} default value {% endblock %}
+    - then extends that file | write your code within block
