@@ -54,3 +54,7 @@
     - {% %}  ---->  template tags
         - template logic, loops, conditional statements, and other control structures
         - define a block or load and csrf
+<br>
+
+7. create a app
+    - python manage.py startapp chai
