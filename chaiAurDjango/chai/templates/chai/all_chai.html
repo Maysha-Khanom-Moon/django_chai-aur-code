@@ -14,7 +14,7 @@ Chai | Home page
             <div class="chai-item bg-blue-800 p-2">
                 <img src="{{chai.image.url}}" alt="">
                 <h3 class="text-2xl font-bold mb-2"> {{chai.name}} </h3>
-                <a href="#">
+                <a href="{% url 'chai_detail' chai.id %}">
                     <button type="button" class="w-full focus:outline-none text-white bg-orange-600 hover:bg-orange-700 focus:ring-4 focus:ring-orange-500 font-medium rounded-md text-sm px-5 py-1.5 me-2 mb-2 dark:focus:ring-yellow-900">
                         {{chai.type}} - {{chai.id}}
                     </button>

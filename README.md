@@ -119,3 +119,14 @@
     - [chai aur code](https://chaicode.com/blogs/a-guide-on-django-models)
     - python manage.py makemigrations chai
         - only for chai.models
+<br>
+
+
+13. customized url
+    - url name used at html href
+        - {% url 'path_name' chai.id %}
+            - chai.id --> custom value
+    
+    - chai.image
+        - return the static file path
+        - <img scr="{{chai.image.url}}" alt="">
