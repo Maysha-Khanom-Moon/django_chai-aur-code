@@ -1,6 +1,6 @@
 #### Thanks to [chai aur code](https://www.youtube.com/@chaiaurcode)
 - [playlist](https://www.youtube.com/playlist?list=PLu71SKxNbfoDOf-6vAcKmazT92uLnWAgy)
-- [documentation & snippet](https://chaicode.com/blogs/getting-started-with-django)
+- [documentation & snippet](https://chaicode.com/blogs/)
 
 
 ##### prerequisites: python, html, css
@@ -112,3 +112,8 @@
         - username: admin
         - password: admin
     - before creating superuser  -->  migrate
+<br>
+
+
+12. A guide on Django models
+    - [chai aur code](https://chaicode.com/blogs/a-guide-on-django-models)
