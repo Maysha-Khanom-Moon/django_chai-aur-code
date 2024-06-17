@@ -117,3 +117,5 @@
 
 12. A guide on Django models
     - [chai aur code](https://chaicode.com/blogs/a-guide-on-django-models)
+    - python manage.py makemigrations chai
+        - only for chai.models
