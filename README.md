@@ -103,6 +103,12 @@
             - add .gitignore file --> *
         - again follows upper steps
         - if any error occurs then go to chatGPT
+    - ##### for hot reloading
+        - python manage.py tailwind start
+            - but it is on live
+    
+    - python manage.py tailwind build
+        - it's just build | production grade
 <br>
 
 
@@ -130,3 +136,27 @@
     - chai.image
         - return the static file path
         - <img scr="{{chai.image.url}}" alt="">
+
+    - ##### random:
+        - /../ if '/' exist at starting  --->  that path replace the url
+        - ../ if '/' not exist at starting  -->  add that path with existing url
+<br>
+
+
+14. django authentication system
+    - [official documentation](https://docs.djangoproject.com/en/5.0/topics/auth/default/)
+
+
+<br>
+
+
+
+15. model relationship
+    - one to one  -->  ek review er cha ektai
+    - one to many  -->  ek cha er multiple review thakte pare
+        - Or many to one
+
+    - many to many  -->  ek cha multiple store a thakte pare, abar ek store a multiple cha thakte pare
+
+    - [official documentation](https://docs.djangoproject.com/en/5.0/topics/db/examples/)
+    - make sure you migrate and register your models
