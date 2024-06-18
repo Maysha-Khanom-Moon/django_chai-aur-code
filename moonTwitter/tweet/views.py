@@ -9,7 +9,7 @@ def index(request):
 
 def tweet_list(request):
     tweets = Tweet.objects.all().order_by('-created_at')
-    return render(request, 'tweet_list.html', {'tweets': tweets})
+    return render(request, 'tweet/tweet_list.html', {'tweets': tweets})
 
 
 def tweet_create(request):
@@ -24,7 +24,7 @@ def tweet_create(request):
     else:
         form = TweetForm()
     
-    return render(request, 'tweet_form.html', {'form': form})
+    return render(request, 'tweet/tweet_form.html', {'form': form})
 
 
 def tweet_edit(request, tweet_id):
@@ -40,7 +40,7 @@ def tweet_edit(request, tweet_id):
     else:
         form = TweetForm(instance = tweet)    
     
-    return render(request, 'tweet_form.html', {'form': form})
+    return render(request, 'tweet/tweet_form.html', {'form': form})
 
 
 def tweet_delete(request, tweet_id):
@@ -49,4 +49,4 @@ def tweet_delete(request, tweet_id):
         tweet.delete()
         return redirect('tweet_list')
     
-    return render(request, 'tweet_confirm_delete.html', {'tweet': tweet})
+    return render(request, 'tweet/tweet_confirm_delete.html', {'tweet': tweet})
