@@ -166,3 +166,12 @@
 
 16. forms
     - [official documentation](https://docs.djangoproject.com/en/5.0/ref/forms/)
+<br>
+
+
+#### Extra
+- pip freeze > requirements.text
+    - all install package stored into requirements.txt
+
+- pip install -r requirements.txt
+    - all required package install at a time
