@@ -160,3 +160,9 @@
 
     - [official documentation](https://docs.djangoproject.com/en/5.0/topics/db/examples/)
     - make sure you migrate and register your models
+    - chai-aur-code  -->  [(relationships-and-forms)](https://docs.chaicode.com/relationships-and-forms/)
+<br>
+
+
+16. forms
+    - [official documentation](https://docs.djangoproject.com/en/5.0/ref/forms/)
