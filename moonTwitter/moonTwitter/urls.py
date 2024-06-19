@@ -19,17 +19,14 @@ from django.urls import path, include
 
 from django.conf import settings
 from django.conf.urls.static import static
-
+from django.contrib.auth.urls import views as auth_views
 
 admin.site.site_header = "moonTwitter Administration"
 admin.site.site_title = "moonTwitter Admin Portal"
 admin.site.index_title = "Welcome to moonTwitter Admin Portal"
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('tweet/', include('tweet.urls')),
-    
-    path("__reload__/", include("django_browser_reload.urls")),
-     
+    path('accounts/', include('django.contrib.auth.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
